@@ -1,2 +1,2 @@
 var word= prompt("Give me a word");
-alert(word+"\n"+"There are "+word.length+"letters. \n")
+alert(word+"\n"+"There are "+word.length+" letters. \n"+"The third character is \""+word[2]+".\"\n"+"Lowercase: "+word.toLowerCase()+"\n"+"Uppercase: "+word.toUpperCase()+"\n"+"Example: you, sir, are a \""+word+".\"\n"+"Subword: "+word.substring(1,4));
